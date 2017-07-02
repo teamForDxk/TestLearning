@@ -1,4 +1,4 @@
-package BankDemo;
+package com.dxk.BankDemo;
 
 public class DrawMoneyThread extends Thread{
 	private Account account;//账户实体类

@@ -1,4 +1,4 @@
-package BankDemo;
+package com.dxk.BankDemo;
 /**
  * 账户信息类
  * <p>Title: Account</p>

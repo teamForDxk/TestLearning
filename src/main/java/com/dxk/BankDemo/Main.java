@@ -1,4 +1,4 @@
-package BankDemo;
+package com.dxk.BankDemo;
 
 public class Main {
 
