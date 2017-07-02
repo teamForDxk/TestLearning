@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>H5练习页面</title>
+</head>
+<body>
+	<div style = "text-align: center;">
+		<button onclick="playStatus()">开始/结束</button>
+		<button onclick="da()">大</button>
+		<button onclick="zhong()">中</button>
+		<button onclick="xiao()">小</button>
+		<br/>
+		<br/>
+		<video id="myVideo" width="400px" height="350px" controls="controls" loop="loop">
+			<source src="video/01.mp4" type="video/mp4">
+		</video>
+		<br><br>
+		<audio src="audio/01.mp3" controls="controls"></audio>
+	</div>
+	
+	<script type="text/javascript">
+		var myVadio = document.getElementById("myVideo");
+		function playStatus(){
+			if(myVadio.paused){
+				myVadio.play();
+			}else{
+				myVadio.pause();
+			}
+		}
+		function da(){
+			myVadio.width = 800;
+			myVadio.height = 500;
+		}
+		function zhong(){
+			myVadio.width = 400;
+			myVadio.height = 350;
+		}
+		function xiao(){
+			myVadio.width = 300;
+			myVadio.height = 250;
+		}
+	</script>
+</body>
+
+</html>
