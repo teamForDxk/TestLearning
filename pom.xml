@@ -24,11 +24,23 @@
 	    <version>4.8.1</version>
 	    <scope>test</scope>
 	</dependency>
-	
+	<!-- redis 依赖 -->
 	<dependency>
     <groupId>ru.zinin</groupId>
     <artifactId>tomcat-redis-session</artifactId>
     <version>0.7</version>
+	</dependency>
+	<!-- rabbitMQ 依赖 -->
+	<dependency>
+        <groupId>com.rabbitmq</groupId>
+        <artifactId>amqp-client</artifactId>
+        <version>3.0.4</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>commons-lang</groupId>
+		<artifactId>commons-lang</artifactId>
+		<version>2.6</version>
 	</dependency>
 	
 	
